@@ -4,25 +4,22 @@ import Moment from 'moment';
 import momentLocalizer from 'react-widgets/lib/localizers/moment';
 import numberLocalizer from 'react-widgets/lib/localizers/simple-number';
 import { connect } from 'react-redux';
-import {displayDltAcct} from '../Actions';
-import MyCalendar from '../components/MyCalendar';
+import Homepage from './Homepage';
+import { Switch, Route } from 'react-router-dom';
 
 
 numberLocalizer();
 momentLocalizer(Moment);
 
-const Overview = (children) => (
+const App = () => (
   <div className = "wrapper">
     <Navbar/>
-    <div className="app">
-      {children}
-      <MyCalendar/>
-    </div>
+      <Switch>
+        <Route exact path = '/' component = {Homepage}/>
+      </Switch>
   </div>
 );
 
-const App = ({children, authenticated}) => Overview(children)
 
-const mapStateToProps = (state) => ({authenticated: state.authenticated})
 
-export default connect(mapStateToProps)(App);
+export default(App);

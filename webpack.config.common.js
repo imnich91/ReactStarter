@@ -4,8 +4,20 @@ const srcRoot = path.resolve(__dirname, 'src');
 module.exports = {
   module: {
     loaders: [
-      { include: srcRoot, loaders: ['babel'], test: /\.js$/ },
-      { loader: 'style!css?module', test: /\.css$/ },
+      {
+          test: /\.jsx?$/,
+          exclude: /node_modules/,
+          loader: "babel",
+          query:
+            {
+                presets: ['react', 'es2015'],
+                plugins: ['transform-class-properties', 'syntax-decorators', 'transform-object-rest-spread']
+            }
+      },
+      {
+        loader: 'style!css?module',
+        test: /\.css$/
+      },
     ],
   },
   shared: {

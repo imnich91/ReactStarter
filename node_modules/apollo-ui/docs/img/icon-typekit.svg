@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>D14911FB-3A7A-4F13-8D41-D04BDAD6E8BA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="85.2549016%" y1="91.0358843%" x2="60.6393945%" y2="10.2511226%" id="linearGradient-1">
+            <stop stop-color="#152600" offset="0%"></stop>
+            <stop stop-color="#152600" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="40" height="40"></rect>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40" height="40" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+    </defs>
+    <g id="Resources" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05.-Resources" transform="translate(-550.000000, -532.000000)">
+            <g id="Content" transform="translate(435.000000, 110.000000)">
+                <g id="Fonts" transform="translate(0.000000, 305.000000)">
+                    <g id="icon-typekit" transform="translate(115.000000, 117.000000)">
+                        <use id="Rectangle" stroke="#87EC00" mask="url(#mask-3)" stroke-width="4" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <path d="M6.075,10.15 L20.525,10.15 L20.525,12.85 L14.85,12.85 L14.85,28 L11.725,28 L11.725,12.85 L6.075,12.85 L6.075,10.15 Z M22.275,10.15 L25.125,10.15 L25.125,20.3 L30.275,15.075 L33.775,15.075 L28.825,19.825 L34.25,28 L30.775,28 L26.825,21.725 L25.125,23.375 L25.125,28 L22.275,28 L22.275,10.15 Z" id="Tk" fill="#87EC00"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
