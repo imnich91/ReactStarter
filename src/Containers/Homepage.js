@@ -1,11 +1,11 @@
 import React from 'react';
-import {Button} from 'semantic-ui-react';
+import TitleSection from '../components/TitleSection';
+import ProjectSection from '../components/ProjectSection';
 
 const Homepage = () => (
-  <div className = "home">
-    <h1 > HOME </h1>
-    <Button primary className = "home-button">primary</Button>
-
+  <div className = "home-wrapper">
+    <TitleSection/>
+    <ProjectSection/>
   </div>
 )
 

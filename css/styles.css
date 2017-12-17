@@ -6,3 +6,41 @@
 .home-button{
   margin-left:100px;
 }
+
+.menu {
+  margin: 0px !important;
+  top: 0px !important;
+  position: fixed !important;
+  background: #008080 !important;
+  width: 100%;
+}
+
+
+.title-area{
+  background: #C63D0F;
+
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 10% 20px;
+  text-align: center;
+}
+
+.title-image{
+  position:static !important;
+}
+
+
+.project-area{
+  background: #FDF3E7;
+
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 50px 0;
+  padding: 10% 20px;
+  text-align: center;
+}
+
+.home-wrapper{
+   margin-top: 40px; /* Add a top margin to avoid content overlay */
+   background:#585858;
+}

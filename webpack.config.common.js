@@ -7,7 +7,7 @@ module.exports = {
       {
           test: /\.jsx?$/,
           exclude: /node_modules/,
-          loaders: ["babel", "react-hot-loader/webpack"],
+          loader: "babel",
           query:
             {
                 presets: ['react', 'es2015'],

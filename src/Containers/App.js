@@ -3,15 +3,27 @@ import Moment from 'moment';
 import { connect } from 'react-redux';
 import Homepage from './Homepage';
 import { Switch, Route } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 
-const App = () => (
-  <div className = "wrapper">
-    <Switch>
-      <Route exact path = '/' component = {Homepage}/>
-    </Switch>
-  </div>
-);
+
+
+class App extends React.Component {
+
+
+  render() {
+    
+    return (
+      <div>
+        <Navbar/>
+        <div className = "wrapper">
+          <Homepage/>
+        </div>
+      </div>
+    )
+  }
+}
+
 
 
 
