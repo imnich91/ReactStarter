@@ -11,13 +11,3 @@ new WebpackDevServer(webpack(config), {
 
   console.log('Listening at http://localhost:8080/');
 })
-
-// new WebpackDevServer(webpack(config), {
-//   hot: true,
-//   historyApiFallback: true,
-//   publicPath: config.output.publicPath
-// }).listen(8081, 'localhost', function (err) {
-//   if (err) { return console.log(err); }
-//
-//   console.log('Listening at http://localhost:8081/');
-// });
