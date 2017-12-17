@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "0e8a940c45b2e6b67f1c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f8e3580f2ee4a1e30f59"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -5977,7 +5977,7 @@
 /* 899 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(6);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _semanticUiReact = __webpack_require__(900);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar TitleSection = function TitleSection() {\n  return _react2.default.createElement(\n    'div',\n    { id: 'title', className: 'title-area smooth' },\n    _react2.default.createElement(_semanticUiReact.Image, { className: 'title-image', src: '../../images/ian.png', size: 'medium', circular: true })\n  );\n};\n\nexports.default = TitleSection;\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/components/TitleSection.js\n// module id = 899\n// module chunks = 0\n//# sourceURL=webpack:///./src/components/TitleSection.js?");
+	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(6);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _semanticUiReact = __webpack_require__(900);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar TitleSection = function TitleSection() {\n  return _react2.default.createElement(\n    'div',\n    { id: 'title', className: 'title-area smooth' },\n    _react2.default.createElement(_semanticUiReact.Image, { className: 'title-image', src: 'src/images/ian.png', size: 'medium', circular: true })\n  );\n};\n\nexports.default = TitleSection;\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/components/TitleSection.js\n// module id = 899\n// module chunks = 0\n//# sourceURL=webpack:///./src/components/TitleSection.js?");
 
 /***/ }),
 /* 900 */
