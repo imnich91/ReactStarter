@@ -1,6 +1,4 @@
-const AppContainer = (process.env.NODE_ENV === 'development') ?
-  require('react-hot-loader/lib/AppContainer.dev.js') :
-  require('react-hot-loader/lib/AppContainer.prod.js');
+import { AppContainer } from 'react-hot-loader';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -19,3 +17,10 @@ ReactDOM.render(
   </AppContainer>,
   rootEl
 );
+
+
+if(module.hot) {
+  if (module.hot) {
+    module.hot.accept();
+  }
+}

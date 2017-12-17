@@ -29,23 +29,19 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "apollo-ui": "^1.0.0-beta.3",
     "async": "^2.0.0-rc.6",
-    "coreui": "^0.3.1-alpha9",
     "moment": "^2.13.0",
+    "ramda": "^0.25.0",
     "react": "^15.1.0",
     "react-addons-css-transition-group": "^15.5.2",
-    "react-bootstrap": "^0.31.0",
-    "react-bootstrap-carousel": "^1.1.0",
     "react-dom": "^15.1.0",
-    "react-infinite-calendar": "^2.3.1",
     "react-redux": "^4.4.5",
     "react-router-dom": "^4.2.2",
-    "react-semantic-form": "^0.1.2",
     "recompose": "^0.20.2",
     "redux": "^3.5.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
+    "semantic-ui-react": "^0.77.1",
     "tapable": "^0.2.4"
   }
 }
