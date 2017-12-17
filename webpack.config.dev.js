@@ -12,8 +12,7 @@ module.exports = Object.assign(R.omit(['shared'], commonConfig), {
   ].concat(R.flatten(R.values(commonConfig.shared.modules))),
   output: {
     filename: 'bundle.js',
-    path: commonConfig.shared.output.path,
-    publicPath: 'http://localhost:8080/',
+    path: commonConfig.shared.output.path
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
 });
