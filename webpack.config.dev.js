@@ -7,13 +7,13 @@ module.exports = Object.assign(R.omit(['shared'], commonConfig), {
   entry: [
     'react-hot-loader/patch',
     'babel-polyfill',
-    'webpack-dev-server/client?http://0.0.0.0:8080',
+    'webpack-dev-server/client?http://0.0.0.0:3000/',
     'webpack/hot/only-dev-server',
   ].concat(R.flatten(R.values(commonConfig.shared.modules))),
   output: {
     filename: 'bundle.js',
     path: commonConfig.shared.output.path,
-    publicPath: 'http://0.0.0.0:8080/',
+    publicPath: 'http://0.0.0.0:3000/',
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
 });
