@@ -14,7 +14,9 @@ class App extends React.Component {
     return (
       <div>
         <div className = "wrapper">
-          <HomeContainer/>
+          <Switch>
+            <Route exact path = "/" component = {HomeContainer}/>
+          </Switch>
         </div>
       </div>
     )
