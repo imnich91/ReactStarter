@@ -15,7 +15,7 @@ class App extends React.Component {
       <div>
         <div className = "wrapper">
           <Switch>
-            <Route exact path = "/" component = {HomeContainer}/>
+            <Route exact path = "./" component = {HomeContainer}/>
           </Switch>
         </div>
       </div>
