@@ -16,4 +16,4 @@ Steps for deploying to gh-pages:
 2)npm run build  
 3)commit the bundle file.  
 4)push to remote gh-pages branch: ie: git push origin gh-pages  
-5)view project at https://<username>.github.io/Repositoryname/  
+5)view project at username.github.io/Repositoryname/  
