@@ -1,8 +1,11 @@
 import React from 'react';
 import Homepage from '../components/Homepage';
+import { connect } from 'react-redux';
+import {updateMessage} from '../Actions';
 
 const HomeContainer = (props) => (
-  <Homepage/>
+  <Homepage updateMessage = {props.updateMessage} messageState = {props.messageState}/>
 )
 
-export default HomeContainer;
+const mapStateToProps = (state) => ({messageState : state.messageState})
+export default connect(mapStateToProps, {updateMessage})(HomeContainer);
