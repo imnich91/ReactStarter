@@ -2,7 +2,6 @@
 
 Starter kit for React projects with redux state management.  
 Configured be built with webpack and I have it setup to deploy to gh-pages.  
-
 Make sure you create a gh-pages branch and build the project before deploying.  
 I have added hot-reloading for development.  
 
