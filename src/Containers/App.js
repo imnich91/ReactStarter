@@ -22,6 +22,7 @@ class App extends React.Component {
       <div>
         <div className = "wrapper">
           <Switch>
+            {console.log(process.env.PUBLIC_URL)}
             <Route exact path = {this.getName()} component = {HomeContainer}/>
           </Switch>
         </div>
