@@ -8,6 +8,13 @@ import HomeContainer from './HomeContainer';
 
 class App extends React.Component {
 
+  getName() {
+    if (typeof process.env.PUBLIC_URL !== 'undefined') {
+      return process.env.PUBLIC_URL +  "/"
+    } else {
+      return "/"
+    }
+  }
 
   render() {
 
@@ -15,7 +22,7 @@ class App extends React.Component {
       <div>
         <div className = "wrapper">
           <Switch>
-            <Route exact path = process.env.PUBLIC_URL + "/" component = {HomeContainer}/>
+            <Route exact path = {this.getName()} component = {HomeContainer}/>
           </Switch>
         </div>
       </div>

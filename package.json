@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "ReactStarter",
   "main": "src/index.js",
+  "homepage": "https://imnich91.github.io/ReactStarter",
   "scripts": {
     "build": "webpack --config webpack.config.dev.js",
     "start": "node server.js",
