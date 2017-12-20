@@ -10,7 +10,7 @@ class App extends React.Component {
 
   getName() {
     if (typeof process.env.PUBLIC_URL !== 'undefined') {
-      return process.env.PUBLIC_URL +  "/"
+      return process.env.PUBLIC_URL
     } else {
       return "/"
     }
