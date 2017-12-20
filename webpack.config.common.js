@@ -1,5 +1,6 @@
 const path = require('path');
 const srcRoot = path.resolve(__dirname, 'src');
+const webpack = require('webpack');
 
 module.exports = {
   module: {
