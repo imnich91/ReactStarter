@@ -17,13 +17,5 @@ module.exports = Object.assign(R.omit(['shared'], commonConfig), {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-
-    new webpack.DefinePlugin({
-      process: {
-        env: {
-          PUBLIC_URL: JSON.stringify("https://imnich91.github.io/ReactStarter/")
-        }
-      }
-    }),
   ],
 });
